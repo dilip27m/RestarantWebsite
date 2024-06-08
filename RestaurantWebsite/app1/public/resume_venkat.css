@@ -1,0 +1,71 @@
+body{
+    padding: 0px;
+}
+#first{
+    height: 250px;
+    background-color: #80FFEC;
+    display: flex;
+
+}
+#second{
+    background-image: url(venkat.jpg);
+    background-size: cover;
+    height: 220px;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 220px;
+    margin-left: 20px;
+}
+#move1{
+    margin:0px 0px 0px 70px;
+    font-size: 50px;
+}
+#move2{
+    margin:0px 0px 0px 70px;
+    font-size: 45px;
+}
+#move3{
+    margin:0px 0px 0px 70px;
+    font-size: 35px;
+}
+#move4{
+    margin:15px 50px 0px 40px;
+}
+#third{
+    display: flex;
+}
+#fmove1{
+    width: 40%;
+    margin: 0px 5px 0px 0px;
+    background-color: rgb(254, 222, 227);
+    padding: 10px;
+}
+#fmove2{
+    width: 60%;
+    padding: 10px;
+}
+table,th,td{
+    border-style: solid;
+    height: 25px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: medium;
+}
+td,th{
+    width: 240px
+}
+h2{
+    font-family: cursive;
+    font-size: 30px;
+}
+h4{
+    font-size: 22px;
+}
+li{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+    background-color: rgb(158, 158, 102);
+}
+

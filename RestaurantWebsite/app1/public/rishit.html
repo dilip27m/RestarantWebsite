@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        *{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left{
+    background-color: rgb(110, 110, 110);
+    width: 22%;
+    height: auto;
+    float: left;
+}
+
+.image{
+    background-image: url("/rishit.jpg");
+    width: 250px;
+    height: 250px;
+    left: 35px;
+    top:10px;
+    position: relative;
+    background-size: cover;
+    border-radius: 50%;
+    border: 4px rgb(255, 255, 255) solid;
+}
+
+.left{
+    margin-left: 70px;
+    position: absolute;
+    z-index: 1;
+    background-color:#ACE1AF;
+}
+.proile1{
+    margin-top:10px;
+}
+.top{
+    position: absolute;
+    height: 260px;
+    background-color:#E5D2C4;
+    width: 100%;
+    margin-top: 30px;
+    z-index: 0;
+}
+.right{
+    position:absolute;
+    top: 305px;
+    left: 510px;
+    height: 508px;
+    width:auto;
+}
+table,th,td,tr{
+    border-collapse: collapse;
+    border:3px solid black;
+}
+table{
+    font-size: 28px;
+    height: 240px;
+}
+th,td{
+    text-align: center;
+    width: 350px;
+}
+@media screen and (max-width: 1135px) {
+            .left {
+                width: 100%;
+                float: none;
+                margin-left: 0;
+                position: static;
+                z-index: 0;
+            }
+
+            .right {
+                position: static;
+                top: auto;
+                left: auto;
+                height: auto;
+                width: 100%;
+                margin-top: 20px;
+            }
+            .image{
+                top: 30px;
+            }
+        }
+
+    </style>
+</head>
+<body style="position: relative; width: auto;">
+    <div class="top">
+        <p style="margin-left:565px; margin-top:70px;font-size: 55px;font-family:'Times New Roman', Times, serif">RISHITH RAO</p>
+        <p style="margin-left:  565px; margin-top: 21px; font-size: 45px;font-family:'Times New Roman', Times, serif">STUDENT</p>
+    </div>
+    <div class="left">
+        <div class="image" style="align-items: center; margin-left: 28px;"></div>
+        <br>
+        <div class="profile" style="text-align: center; margin-top: 20px;">
+            <div>
+                <h1 style="text-align: left; padding-left: 20px;">PROFILE</h1>
+                <br>
+                <div class="profile1" style="font-size:larger;">
+                    - Hardworking college student
+                    with a motivated attitude and a variety of skills.
+                    Adept in various social media platforms and
+                    office technology programs. 
+                    Committed to contributing my expertise in a
+                    dynamic office or media
+                    production environment.
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="contactme" style="margin-left: 20px;">
+            <h1>CONTACT ME</h1><br>
+            <div class="info" style="margin-left: 10px; font-size: 22px;">&#9993; rishithraoparvathaneni@gmail.com</div><br>
+            <div class="info1" style="margin-left: 10px;font-size: 22px;">&#9743; +91 9581871633</div><br>
+            <div style="margin-left: 10px;font-size: 25px; display: inline-block;" class="instagram"><a target="_blank" style="text-decoration: none;" href="https://www.instagram.com/rishithrao.7/">Instagram</a></div>
+            <div style="margin-left: 70px;display: inline-block;font-size: 25px;" class="github"><a target="_blank" style="text-decoration: none;" href="https://github.com/rishithrao7">Github</a></div>
+        </div><br>
+        <div class="languages">
+            <h1 style="padding-left: 23px;">LANGUAGES</h1><br>
+            <ul style="padding-left: 55px; font-size: 27px;">
+                <li>Hindi</li><br>
+                <li>English</li><br>
+                <li>Telugu</li><br>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="educational" style="padding-left: 10px;">
+            <h2><u>&#8667; EDUCATIONAL BACKGROUND</u></h2><br>
+            <table>
+                <tr>
+                    <th>School/University</th>
+                    <th>Place of Study</th>
+                    <th>Year of Study</th>
+                </tr>
+                <tr>
+                    <td>Sadhu Vaswani International School</td>
+                    <td>Hyderabad,Telangana</td>
+                    <td>2008-2021</td>
+                </tr>
+                <tr>
+                    <td>Trividyaa Junior College</td>
+                    <td>Hyderabad,Telangana</td>
+                    <td>2021-2023</td>
+                </tr>
+                <tr>
+                    <td>Amrita Vishwa Vidyapeetham</td>
+                    <td>Amritapuri,Kerala</td>
+                    <td>2023-2027</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="skills" style="padding-left: 10px;">
+            <h2><u>&#8667; SKILLS</u></h2>
+            <br>
+            <ul style="font-size: 23px; padding-left: 38px;">
+                <li>Python</li>
+                <br>
+                <li>Java</li>
+                <br>
+                <li>Html,Css & Javascript</li>
+            </ul>
+            <br>
+        </div>
+        <div class="workhistory" style="padding-left: 10px;">
+            <h2><u>&#8667; WORK HISTORY</u></h2>
+            <br>
+            <ul style="font-size: 24px ;padding-left: 38px;">
+                <li>Worked on a Python project in Semester I</li><br>
+                <li>Built games like Hang man, Guess number & Quiz games using Python</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
